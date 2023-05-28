@@ -23,20 +23,20 @@ This is a simple Java login application that demonstrates a login functionality 
 1. Clone the repository or download the source code.
 2. Set up a MySQL database with the required tables. 
 -- Create the users table
-CREATE TABLE users (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(50) NOT NULL,
-    username VARCHAR(50) NOT NULL,
-    password VARCHAR(50) NOT NULL,
-    role VARCHAR(20) NOT NULL
-);
+CREATE TABLE users (<br>
+    id INT PRIMARY KEY AUTO_INCREMENT,<br>
+    name VARCHAR(50) NOT NULL,<br>
+    username VARCHAR(50) NOT NULL,<br>
+    password VARCHAR(50) NOT NULL,<br>
+    role VARCHAR(20) NOT NULL<br>
+);<br>
 
 -- Insert sample users
-INSERT INTO users (name, username, password, role)
-VALUES
-    ('John Doe', 'johndoe', 'password', 'user'),
-    ('Jane Smith', 'janesmith', 'password', 'user'),
-    ('Manager', 'manager', 'password', 'manager');
+INSERT INTO users (name, username, password, role)<br>
+VALUES<br>
+    ('John Doe', 'johndoe', 'password', 'user'),<br>
+    ('Jane Smith', 'janesmith', 'password', 'user'),<br>
+    ('Manager', 'manager', 'password', 'manager');<br>
 
 
 
