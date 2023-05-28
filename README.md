@@ -1,4 +1,4 @@
-# TextEncoder
+# 1.TextEncoder
 
 The TextEncoder is a Java class that provides methods for encoding and decoding text using a reference table and an offset value. It allows you to perform simple character substitution encryption and decryption.
 
