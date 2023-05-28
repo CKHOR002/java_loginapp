@@ -1,4 +1,21 @@
-# Java Login Application
+# TextEncoder
+
+The TextEncoder is a Java class that provides methods for encoding and decoding text using a reference table and an offset value. It allows you to perform simple character substitution encryption and decryption.
+
+## Usage
+
+### Encoding
+
+To encode a plain text string, use the `encode` method of the `TextEncoder` class. Pass the plain text and an offset character as parameters. The method returns the encoded text.
+
+```java
+String plainText = "HELLO WORLD";
+char offset = 'F';
+String encodedText = encoder.encode(plainText, offset);
+```
+
+
+# 2. Java Login Application
 
 This is a simple Java login application that demonstrates a login functionality with user roles and restricted access for manager users. The application follows the MVC (Model-View-Controller) pattern and uses Java for the backend and a web-based UI.
 
@@ -23,7 +40,6 @@ This is a simple Java login application that demonstrates a login functionality 
 1. Clone the repository or download the source code.
 2. Set up a MySQL database with the required tables. 
 
-<br>
 <br>
 #################################################################
 <br>
