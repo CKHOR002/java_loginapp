@@ -13,13 +13,13 @@ String plainText = "HELLO WORLD";
 char offset = 'F';
 String encodedText = encoder.encode(plainText, offset);
 ```
-##Decoding
+### Decoding
 To decode an encoded text string, use the decode method of the TextEncoder class. Pass the encoded text as a parameter. The method returns the decoded text.
 
 ```java
 String decodedText = encoder.decode(encodedText);
 ```
-##Example
+###Example
 Here's an example of how to use the TextEncoder class:
 
 
