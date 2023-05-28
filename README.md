@@ -22,6 +22,11 @@ This is a simple Java login application that demonstrates a login functionality 
 
 1. Clone the repository or download the source code.
 2. Set up a MySQL database with the required tables. 
+
+<br>
+<br>
+/////////////////////////////////////
+<br>
 -- Create the users table
 CREATE TABLE users (<br>
     id INT PRIMARY KEY AUTO_INCREMENT,<br>
@@ -37,7 +42,8 @@ VALUES<br>
     ('John Doe', 'johndoe', 'password', 'user'),<br>
     ('Jane Smith', 'janesmith', 'password', 'user'),<br>
     ('Manager', 'manager', 'password', 'manager');<br>
-
+////////////////////////////////////////////////
+<br>
 
 
 3. Configure the database connection settings in the `UserDAO` class.
