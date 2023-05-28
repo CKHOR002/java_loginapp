@@ -37,7 +37,7 @@ System.out.println("Decoded text: " + decodedText);
 ### Output:
 
 ```
-Encoded text: MDYYO%A*D]NY
+Encoded text: FC/GGJ RJMG.
 Decoded text: HELLO WORLD
 ```
 ### Customization
