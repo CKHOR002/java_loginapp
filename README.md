@@ -25,7 +25,7 @@ This is a simple Java login application that demonstrates a login functionality 
 
 <br>
 <br>
-/////////////////////////////////////
+#################################################################
 <br>
 -- Create the users table
 CREATE TABLE users (<br>
@@ -42,7 +42,7 @@ VALUES<br>
     ('John Doe', 'johndoe', 'password', 'user'),<br>
     ('Jane Smith', 'janesmith', 'password', 'user'),<br>
     ('Manager', 'manager', 'password', 'manager');<br>
-////////////////////////////////////////////////
+#################################################################
 <br>
 
 
