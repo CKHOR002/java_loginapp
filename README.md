@@ -19,7 +19,7 @@ To decode an encoded text string, use the decode method of the TextEncoder class
 ```java
 String decodedText = encoder.decode(encodedText);
 ```
-###Example
+### Example
 Here's an example of how to use the TextEncoder class:
 
 
@@ -34,13 +34,13 @@ System.out.println("Encoded text: " + encodedText);
 String decodedText = encoder.decode(encodedText);
 System.out.println("Decoded text: " + decodedText);
 ```
-##Output:
+### Output:
 
 ```
 Encoded text: MDYYO%A*D]NY
 Decoded text: HELLO WORLD
 ```
-##Customization
+### Customization
 You can customize the reference table used for encoding and decoding by modifying the referenceTable field in the TextEncoder class. Make sure to keep the table characters unique and in the desired order.
 
 ```java
