@@ -26,6 +26,7 @@ This is a simple Java login application that demonstrates a login functionality 
 <br>
 <br>
 #################################################################
+<br>
 SQL Script
 <br>
 -- Create the users table
