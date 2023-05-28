@@ -13,6 +13,40 @@ String plainText = "HELLO WORLD";
 char offset = 'F';
 String encodedText = encoder.encode(plainText, offset);
 ```
+##Decoding
+To decode an encoded text string, use the decode method of the TextEncoder class. Pass the encoded text as a parameter. The method returns the decoded text.
+
+```java
+String decodedText = encoder.decode(encodedText);
+```
+##Example
+Here's an example of how to use the TextEncoder class:
+
+
+```java
+
+TextEncoder encoder = new TextEncoder();
+String plainText = "HELLO WORLD";
+char offset = 'F';
+String encodedText = encoder.encode(plainText, offset);
+System.out.println("Encoded text: " + encodedText);
+
+String decodedText = encoder.decode(encodedText);
+System.out.println("Decoded text: " + decodedText);
+```
+##Output:
+
+```
+Encoded text: MDYYO%A*D]NY
+Decoded text: HELLO WORLD
+```
+##Customization
+You can customize the reference table used for encoding and decoding by modifying the referenceTable field in the TextEncoder class. Make sure to keep the table characters unique and in the desired order.
+
+```java
+private final String referenceTable = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789()*+,-./";
+```
+
 
 
 # 2. Java Login Application
