@@ -26,8 +26,10 @@ This is a simple Java login application that demonstrates a login functionality 
 <br>
 <br>
 #################################################################
+SQL Script
 <br>
 -- Create the users table
+<br>
 CREATE TABLE users (<br>
     id INT PRIMARY KEY AUTO_INCREMENT,<br>
     name VARCHAR(50) NOT NULL,<br>
@@ -37,6 +39,7 @@ CREATE TABLE users (<br>
 );<br>
 
 -- Insert sample users
+<br>
 INSERT INTO users (name, username, password, role)<br>
 VALUES<br>
     ('John Doe', 'johndoe', 'password', 'user'),<br>
