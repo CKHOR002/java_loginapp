@@ -107,11 +107,5 @@ VALUES<br>
 7. Upon successful login, you will be redirected to the welcome page, which displays your name, username, and role.
 8. If you have a manager role, you will see a link to the restricted page. Clicking on the link will grant you access to the restricted page.
 
-## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
